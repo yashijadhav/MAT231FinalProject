@@ -58,7 +58,20 @@
 											 the number of runs made in the game, wickets taken and lost, who played in 
 											 the match, the venue, and overall world cup winner. The dataset can be found 
 											 on Kaggle.com at https://www.kaggle.com/datasets/amalab182/cricket-world-cup-scores1975-2019</p>
-										
+										<header class="major">
+											<h2> Cleaning the Data</h2>
+										</header>
+										<p>The dataset found on Kaggle was cleaned and filtered to become usable for this project.
+											 First, any extra rows were deleted to prevent errored values when sorting the values
+											  into a tables. Next, the "RESULT" column was changed into "WINNER", changing the value
+											   to the name of the winner of that match rather than the result "WIN" or "LOST" applying
+											    to the respective team. The last column was subsequently renamed "CHAMPION" as it
+												 describes the overall champion of the tournament for the year in which that match was played.</p>
+
+										<p>	Additionally, as many matches were canceled or abandoned due to weather, there were 
+											some matches that had no result. In the dataset they were marked with "NR" in all of 
+											the columns. To make the sorting process easier, I removed all of the NR games and 
+											focused only on games that were played.</p>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 								</div>
