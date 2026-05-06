@@ -3902,5 +3902,9 @@ input, select, textarea {
 			box-sizing: border-box;
 		}
 		
-		
+		.main img {
+			width: 72%;
+			max-width: 950px;
+			height: auto;
+		}
 	
